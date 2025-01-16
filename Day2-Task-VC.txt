@@ -1,0 +1,25 @@
+1. What is a pull request and a request, and the difference between them?
+A pull request is a feature in Git-based collaboration platforms like GitHub that allows a contributor to propose changes to a repository. It is often used in team workflows where contributors request to merge their feature or branch into another branch, typically the main branch. Pull requests also facilitate code review and discussion.
+
+2. What is the command to delete the branch "new-email"?
+git branch -d new-email
+
+3. What is the command to push the current repository to the remote origin?
+git push origin main
+
+4. What is Git Rebase and how to use it?
+Git Rebase:
+Git Rebase is a command used to integrate changes from one branch into another by moving or "replaying" commits onto a new base branch. Unlike merging, which creates a merge commit, rebasing creates a linear commit history.
+How to use it:
+git checkout dept
+git rebase main
+
+5. What is the command to get all the change history of the remote repository "origin"?
+git fetch origin
+git log origin/main
+
+6. What is the command to show the differences between the current branch and the branch "new-email"?
+git diff new-email
+
+7. What are tags, and how to create five tags and release two of them?
+Tags are references in Git that mark specific points in your commit history, often used to identify release versions.
